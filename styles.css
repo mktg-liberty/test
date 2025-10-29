@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  background-image: url("img/CloudsBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: top;
+  padding-left: 60px;
+  padding-top: 100px;
+}
+
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.logo img {
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: white;
+  transform: translateY(-2px);
+}
+
+.btn img {
+  width: 28px;
+  height: auto;
+  border-radius: 3px;
+}
+
